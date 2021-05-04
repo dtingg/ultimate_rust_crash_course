@@ -1,18 +1,18 @@
 # Exercise A: Variables
 
 ### Part 1
-- [ ] Make a new project named `variables` using cargo
+- [x] Make a new project named `variables` using cargo
   - See "cargo help" if you forgot the command.
-- [ ] Open `Cargo.toml`
+- [x] Open `Cargo.toml`
   - Hopefully Rust was able to figure out your name and email address for you!
-  - [ ] Change the version number to `2.3.4`, just for fun, and save the file.
+  - [x] Change the version number to `2.3.4`, just for fun, and save the file.
     Keep an eye out for that version number in cargo's output when you run it!
-- [ ] In `src/main.rs`
-  - [ ] Declare the variable `missiles` and initialize it to `8`
-  - [ ] Declare the variable `ready` and initialize it to `2`
-- [ ] Change the `println!(...)` at the end of `main()` to:
+- [x] In `src/main.rs`
+  - [x] Declare the variable `missiles` and initialize it to `8`
+  - [x] Declare the variable `ready` and initialize it to `2`
+- [x] Change the `println!(...)` at the end of `main()` to:
   - `println!("Firing {} of my {} missiles...", ready, missiles);`
-- [ ] Run your program using cargo (see "cargo help" if you forgot the command).
+- [x] Run your program using cargo (see "cargo help" if you forgot the command).
   Some common errors you may hit:
   - Forgot to use `let` to bind a variable
   - Forgot a semicolon `;` at the end of each line
